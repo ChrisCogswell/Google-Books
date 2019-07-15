@@ -4,8 +4,8 @@ import "./style.css"
 function Logo() {
     return (
             <div className="logo">
-                <img className="logo-position" src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Play-Books-icon.png" />
-                <h1 className="logo-text logo-position"> (React) Google Play Books Search </h1>
+                <img className="logo-position" src="http://icons.iconarchive.com/icons/itzikgur/my-seven/512/Books-2-icon.png" alt="logo" />
+                <h1 className="logo-text logo-position">Google Books Search (React) </h1>
             </div>
     )
 }

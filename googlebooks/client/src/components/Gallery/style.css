@@ -1,0 +1,17 @@
+.book-wrapper {
+    background-color: whitesmoke;
+}
+
+.book-column {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.book-image {
+    border: 5px solid black;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
