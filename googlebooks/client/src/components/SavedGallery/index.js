@@ -22,7 +22,7 @@ class SavedGallery extends Component {
     }
 
     render() {
-        let altImage = 'http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Play-Books-icon.png';
+        let altImage = 'http://icons.iconarchive.com/icons/itzikgur/my-seven/512/Books-2-icon.png';
         // Prevents page from loading until GET request is complete, preventing error
         if(!this.state.promiseIsResolved){return null}
         else{

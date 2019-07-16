@@ -14,7 +14,7 @@ class Gallery extends Component {
           })
     }
     render() {
-        let altImage = 'http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Play-Books-icon.png';
+        let altImage = 'http://icons.iconarchive.com/icons/itzikgur/my-seven/512/Books-2-icon.png';
         return (
 
             <div className="book-list-wrapper">
@@ -40,6 +40,7 @@ class Gallery extends Component {
                                         image={item.volumeInfo.imageLinks}
                                         link={item.volumeInfo.infoLink}
                                         saveBook={this.saveBook}/>
+                                        
                                     <a className="book" href={infoLink} target="_blank" rel="noopener noreferrer">
                                     <div className="book-title white-text">
                                             <h3>{bookTitle}</h3>
